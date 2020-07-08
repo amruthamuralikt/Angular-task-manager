@@ -61,6 +61,7 @@
         </div>
         <ul>
             <li ng-repeat="i in items"> 
+		    <input type="checkbox" style="float:left;">
             {{i}}    
            
                 <span class="fa fa-trash fa-xs" ng-click="delete($index)"></span>
